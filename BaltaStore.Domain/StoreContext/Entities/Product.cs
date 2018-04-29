@@ -1,6 +1,8 @@
-﻿namespace BaltaStore.Domain.StoreContext.Entities
+﻿using FluentValidator;
+
+namespace BaltaStore.Domain.StoreContext.Entities
 {
-    public class Product
+    public class Product : Notifiable
     {
         public Product(string title, string description, string image, decimal price, decimal quantityOnHand)
         {
@@ -18,5 +20,10 @@
         public decimal QuantityOnHand { get; private set; }
 
         public override string ToString() => Title;
+
+        public void DecreaseQuantity(decimal quantity)
+        {
+            QuantityOnHand -= quantity;
+        }
     }
 }

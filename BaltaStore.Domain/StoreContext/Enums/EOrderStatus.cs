@@ -2,10 +2,9 @@
 {
     public enum EOrderStatus
     {
-        Waiting =1,
-        Created = 2,
-        Paid = 3,
-        Shipped = 4,
-        Canceled = 5
+        Created = 1,
+        Paid = 2,
+        Shipped = 3,
+        Canceled = 4
     }
 }

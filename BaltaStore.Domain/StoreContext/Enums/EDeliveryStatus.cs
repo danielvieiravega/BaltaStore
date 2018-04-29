@@ -2,8 +2,9 @@
 {
     public enum EDeliveryStatus
     {
-        Shipped = 1,
-        Delivered = 2,
-        Canceled = 3
+        Waiting = 1,
+        Shipped = 2,
+        Delivered = 3,
+        Canceled = 4
     }
 }
