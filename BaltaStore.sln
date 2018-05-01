@@ -8,6 +8,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Domain", "BaltaS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Tests", "BaltaStore.Tests\BaltaStore.Tests.csproj", "{6E1D23E8-DC8D-4DCF-8F4D-C5447D473550}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Shared", "BaltaStore.Shared\BaltaStore.Shared.csproj", "{D38E629D-D433-4213-8B84-D6053CF74155}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,18 @@ Global
 		{6E1D23E8-DC8D-4DCF-8F4D-C5447D473550}.Release|x64.Build.0 = Release|Any CPU
 		{6E1D23E8-DC8D-4DCF-8F4D-C5447D473550}.Release|x86.ActiveCfg = Release|Any CPU
 		{6E1D23E8-DC8D-4DCF-8F4D-C5447D473550}.Release|x86.Build.0 = Release|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Debug|x64.Build.0 = Debug|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Debug|x86.Build.0 = Debug|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Release|x64.ActiveCfg = Release|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Release|x64.Build.0 = Release|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Release|x86.ActiveCfg = Release|Any CPU
+		{D38E629D-D433-4213-8B84-D6053CF74155}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

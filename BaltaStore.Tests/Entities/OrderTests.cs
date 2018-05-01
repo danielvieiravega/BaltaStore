@@ -12,7 +12,6 @@ namespace BaltaStore.Tests.Entities
         private readonly Product _keyboard;
         private readonly Product _chair;
         private readonly Product _monitor;
-        private readonly Customer _customer;
         private readonly Order _order;
 
         public OrderTests()
@@ -20,8 +19,8 @@ namespace BaltaStore.Tests.Entities
             var name = new Name("Daniel", "Vega");
             var document = new Document("16142856407");
             var email = new Email("daniel@vega.com");
-            _customer = new Customer(name, document, email, "555191624422");
-            _order = new Order(_customer);
+            var customer = new Customer(name, document, email, "555191624422");
+            _order = new Order(customer);
             _mouse = new Product("mouse gamer", "mouse gamer", "mouse.png", 100M, 10);
             _keyboard = new Product("teclado gamer", "teclado gamer", "mouse.png", 100M, 10);
             _chair = new Product("cadeira gamer", "cadeira gamer", "mouse.png", 100M, 10);
