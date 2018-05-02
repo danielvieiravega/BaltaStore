@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace BaltaStore.Tests.Commands
 {
     [TestClass]
-    public class CreateCustomerCommandTests
+    public class CreatecustomerCommandTests
     {
         [TestMethod]
         public void ShouldValidateWhencommandIsValid()
